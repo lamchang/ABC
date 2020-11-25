@@ -1,6 +1,6 @@
 /* ------------------------------------------------------------
-    LARGE DEVICES
+    STYLES
 ------------------------------------------------------------ */
 
-@media screen and (min-width: 64em){
-}
+@import "_theme.css";
+@import "pages/_home.css";

@@ -1,5 +1,6 @@
-<?php include "header.php"; ?>
+<?php include "components/header.php"; ?>
 
 <!-- YOUR HTML HERE -->
+Hola mundo
 
-<?php include "footer.php"; ?>
+<?php include "components/footer.php"; ?>
