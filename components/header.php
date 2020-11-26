@@ -40,19 +40,19 @@
 			<ul class="topmenu-list">
 					<li class="topmenu-item">
 						<a class="item-btn" href="tel:800 263 1414">
-							<img class="icon" src="assets/icons/telephone.svg" alt="Teléfono">
+							<img class="icon" src="assets/img/icons/telephone.svg" alt="Teléfono">
 							<span>800 263 1414<span>
 						</a>
 					</li>
 					<li class="topmenu-item">
 						<a class="item-btn" href="tel:555 1 34623 1">
-							<img class="icon" src="assets/icons/whatsapp.svg" alt="WhatsApp">
+							<img class="icon" src="assets/img/icons/whatsapp.svg" alt="WhatsApp">
 							<span>555 1 34623 1<span>
 						</a>
 					</li>
 					<li class="topmenu-item">
 						<a class="item-btn" href="mailto:contacto@abcleasing.com.mx">
-							<img class="icon" src="assets/icons/email.svg" alt="E-mail">
+							<img class="icon" src="assets/img/icons/email.svg" alt="E-mail">
 							<span>contacto@abcleasing.com.mx<span>
 						</a>
 					</li>
@@ -60,7 +60,7 @@
 
 			<div class="topmenu-actions">
 				<a class="btn btn-session" href="#">
-					<img class="icon" src="assets/icons/information.svg" alt="Información">
+					<img class="icon" src="assets/img/icons/information.svg" alt="Información">
 					<span>Iniciar sesión</span>
 				</a>
 				<a class="btn btn-session btn--focus" href="#">
@@ -75,14 +75,14 @@
 	<nav class="menu">
 			<div class="menu-container container">
 				<a class="btn btn-logo" href="#">
-					<img src="assets/icons/abc-leasing.svg" alt="ABC Leasing">
+					<img src="assets/img/icons/abc-leasing.svg" alt="ABC Leasing">
 				</a>
 
 				<ul class="menu-list">
 					<li class="menu-item">
 						<a class="menu-option active" href="#">Inicio</a>
 					</li>
-					<li class="menu-item dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					<li class="menu-item dropdown" data-toggle="dropdown">
 						<a class="menu-option" href="#">¿Quiénes somos? <i class="fas fa-chevron-down"></i></a>
 						<div class="dropdown-menu dropdown--menu" aria-labelledby="dropdownMenuButton">
 							<a class="dropdown-item" href="#">
@@ -101,14 +101,46 @@
 							</a>
 						</div>
 					</li>
-					<li class="menu-item">
+					<li class="menu-item dropdown" data-toggle="dropdown">
 						<a class="menu-option" href="#">Productos <i class="fas fa-chevron-down"></i></a>
+						<div class="dropdown-menu dropdown--menu" aria-labelledby="dropdownMenuButton">
+							<a class="dropdown-item" href="#">
+								<i class="icon icon-mobility-leasing icon--medium"></i>
+								<div class="dropdown-label">
+									<h5>Arrendamiento de movilidad/transporte</h5>
+									<p>El coche de tus sueños</p>
+								</div>
+							</a>
+							<a class="dropdown-item" href="#">
+								<i class="icon icon-company-leasing icon--medium"></i>
+								<div class="dropdown-label">
+									<h5>Arrendamiento empresarial</h5>
+									<p>Soluciones de arrendamiento</p>
+								</div>
+							</a>
+						</div>
 					</li>
 					<li class="menu-item">
 						<a class="menu-option" href="#">Noticias</a>
 					</li>
-					<li class="menu-item">
+					<li class="menu-item dropdown" data-toggle="dropdown">
 						<a class="menu-option" href="#">Inversionistas <i class="fas fa-chevron-down"></i></a>
+						<div class="dropdown-menu dropdown--menu" aria-labelledby="dropdownMenuButton">
+							<a class="dropdown-item" href="#">
+								<i class="icon icon-mobility-leasing icon--medium"></i>
+								<div class="dropdown-label">
+									<h5>Arrendamiento de movilidad/transporte</h5>
+									<p>El coche de tus sueños</p>
+								</div>
+							</a>
+							<a class="dropdown-item" href="#">
+								<i class="icon icon-company-leasing icon--medium"></i>
+								<div class="dropdown-label">
+									<h5>Arrendamiento empresarial</h5>
+									<p>Soluciones de arrendamiento</p>
+								</div>
+							</a>
+						</div>
 					</li>
 					<li>
 						<a class="btn btn-primary" href="#">Cotizar</a>

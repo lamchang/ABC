@@ -21,9 +21,9 @@
     <link rel="sitemap" type="application/xml" title="Sitemap" href="sitemap.xml">
 
     <!-- ICON -->
-    <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico">
-    <link rel="shortcut icon" type="image/png" href="../images/favicon.png">
-    <link rel="apple-touch-icon" href="../images/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.ico">
+    <link rel="shortcut icon" type="image/png" href="../img/favicon.png">
+    <link rel="apple-touch-icon" href="../img/favicon.png">
 
     <!-- CSS -->
     <script src="https://kit.fontawesome.com/e1c8cdfd11.js" crossorigin="anonymous"></script>

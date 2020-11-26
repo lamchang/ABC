@@ -4,5 +4,5 @@
 
 @import "_theme.css";
 @import "components/_header.css";
-@import "components/_hero-image.css";
+@import "components/_hero.css";
 @import "pages/_home.css";
