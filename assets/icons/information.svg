@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>information</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.501961 0 0 0 0 0.525490 0 0 0 0 0.584314 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="TopMenu" transform="translate(-1017.000000, -9.000000)">
+            <g id="Group-12-Copy-2" transform="translate(1000.000000, 0.000000)">
+                <g filter="url(#filter-1)" id="information">
+                    <g transform="translate(17.000000, 9.000000)">
+                        <path d="M6,0 C2.68352344,0 0,2.68375781 0,6 C0,9.31647656 2.68375781,12 6,12 C9.31647656,12 12,9.31624219 12,6 C12,2.68352344 9.31621875,0 6,0 Z M6,11.0625 C3.20172656,11.0625 0.9375,8.79808594 0.9375,6 C0.9375,3.20172656 3.20191406,0.9375 6,0.9375 C8.79827344,0.9375 11.0625,3.20191406 11.0625,6 C11.0625,8.79827344 8.7980625,11.0625 6,11.0625 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+                        <path d="M6,5.02335938 C5.74110938,5.02335938 5.53125,5.23321875 5.53125,5.49210938 L5.53125,8.51069531 C5.53125,8.76958594 5.74110938,8.97944531 6,8.97944531 C6.25889062,8.97944531 6.46875,8.7695625 6.46875,8.51067188 L6.46875,5.49210938 C6.46875,5.23321875 6.25889062,5.02335938 6,5.02335938 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+                        <circle id="Oval" fill="#000000" fill-rule="nonzero" cx="6" cy="3.8165625" r="1"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

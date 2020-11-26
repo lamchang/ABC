@@ -1,34 +1,110 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <title>Título de mi documento, este deberá ser único max 65 caracteres</title>
+<header class="header">
 
-    <!-- VIEWPORT -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+	<!-- STOCKBAR -->
+	<div class="stockbar">
+		<ul class="stockbar-list container">
+			<li class="stockbar-item">
+				<h4 class="item-label">Fecha:</h4>
+				<p class="item-value">23/10/2020</p>
+			</li>
+			<li class="stockbar-item">
+				<h4 class="item-label">Dolar USA</h4>
+				<p class="item-value">19.087</p>
+			</li>
+			<li class="stockbar-item">
+				<h4 class="item-label">TIIE 28 días</h4>
+				<p class="item-value">7.300</p>
+			</li>
+			<li class="stockbar-item">
+				<h4 class="item-label">CETES 28 días</h4>
+				<p class="item-value">6.91</p>
+			</li>
+			<li class="stockbar-item">
+				<h4 class="item-label">UDIS</h4>
+				<p class="item-value">6.458101</p>
+			</li>
+			<li class="stockbar-item">
+				<h4 class="item-label">CCP</h4>
+				<p class="item-value">6.53</p>
+			</li>
+			<li class="stockbar-item">
+				<h4 class="item-label">Tasa objetivo</h4>
+				<p class="item-value">7.00</p>
+			</li>
+		</ul>
+	</div>
+	<!-- /STOCKBAR -->
 
-    <!-- MOBILE FORMAT -->
-    <meta name="format-detection" content="telephone=no">
+	<!-- TOPMENU -->
+	<div class="topmenu">
+		<div class="topmenu-container container">
+			<ul class="topmenu-list">
+					<li class="topmenu-item">
+						<a class="item-btn" href="tel:800 263 1414">
+							<img class="icon" src="assets/icons/telephone.svg" alt="Teléfono">
+							<span>800 263 1414<span>
+						</a>
+					</li>
+					<li class="topmenu-item">
+						<a class="item-btn" href="tel:555 1 34623 1">
+							<img class="icon" src="assets/icons/whatsapp.svg" alt="WhatsApp">
+							<span>555 1 34623 1<span>
+						</a>
+					</li>
+					<li class="topmenu-item">
+						<a class="item-btn" href="mailto:contacto@abcleasing.com.mx">
+							<img class="icon" src="assets/icons/email.svg" alt="E-mail">
+							<span>contacto@abcleasing.com.mx<span>
+						</a>
+					</li>
+			</ul>
 
-    <!-- DESCRIPTION & KEYWORDS -->
-    <meta name="description" content="Breve descripción de lo que los usuarios
-        encontrarán en este documento, deberá ser única max 156 caracteres">
-    <meta name="keywords" content="" />
+			<div class="topmenu-actions">
+				<a class="btn btn-session" href="#">
+					<img class="icon" src="assets/icons/information.svg" alt="Información">
+					<span>Iniciar sesión</span>
+				</a>
+				<a class="btn btn-session btn--focus" href="#">
+					<span>Activa tu cuenta</span>
+				</a>
+			</div>
+		</div>
+	</div>
+	<!-- /TOPMENU -->
 
-    <!-- AUTHOR & SITEMAP -->
-    <link rel="author" type="text/plain" href="humans.txt">
-    <link rel="sitemap" type="application/xml" title="Sitemap" href="sitemap.xml">
+	<!-- MENU -->
+	<nav class="menu">
+		<div class="menu-container container">
+			<a class="btn btn-logo" href="/">
+				<img src="assets/icons/abc-leasing.svg" alt="ABC Leasing">
+			</a>
 
-    <!-- ICON -->
-    <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico">
-    <link rel="shortcut icon" type="image/png" href="../images/favicon.png">
-    <link rel="apple-touch-icon" href="../images/favicon.png">
-
-    <!-- CSS -->
-    <!-- optional <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="../assets/css/styles.css">
-</head>
-
-<body>
+			<ul class="menu-list">
+				<li class="menu-item">
+					<a class="menu-option active" href="#">Inicio</a>
+				</li>
+				<li class="menu-item dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					<a class="menu-option" href="#">¿Quiénes somos? <i class="fas fa-chevron-down"></i></a>
+					<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+						<a class="dropdown-item" href="#">Action</a>
+						<a class="dropdown-item" href="#">Another action</a>
+						<a class="dropdown-item" href="#">Something else here</a>
+					</div>
+				</li>
+				<li class="menu-item">
+					<a class="menu-option" href="#">Productos <i class="fas fa-chevron-down"></i></a>
+				</li>
+				<li class="menu-item">
+					<a class="menu-option" href="#">Noticias</a>
+				</li>
+				<li class="menu-item">
+					<a class="menu-option" href="#">Inversionistas <i class="fas fa-chevron-down"></i></a>
+				</li>
+				<li>
+					<a class="btn btn-primary" href="#">Cotizar</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<!-- /MENU -->
+</header>

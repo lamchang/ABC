@@ -3,4 +3,5 @@
 ------------------------------------------------------------ */
 
 @import "_theme.css";
+@import "components/_header.css";
 @import "pages/_home.css";

@@ -1,5 +1,12 @@
-<?php include "header.php"; ?>
+<!DOCTYPE html>
+<html lang="es">
+  <?php include "../components/head.php"; ?>
 
-<!-- YOUR HTML HERE -->
+  <body>
+    <?php include "../components/header.php"; ?>
 
-<?php include "footer.php"; ?>
+    Hola mundo
+
+    <?php include "../components/footer.php"; ?>
+  </body>
+</html>
