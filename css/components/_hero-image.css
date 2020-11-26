@@ -1,0 +1,40 @@
+.hero {
+	top: -80px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: calc(100vh - 140px);
+	min-height: 700px;
+	background-color: rgb(124, 130, 141);
+}
+
+.hero-container {
+	margin: auto;
+}
+
+.hero-content {
+	max-width: 620px;
+}
+
+.hero-content h2 {
+	font-size: 55px;
+	font-weight: 400;
+	color: white;
+}
+
+.btn--hero {
+	display: inline-flex;
+	flex-direction: column;
+	flex-shrink: 0;
+	font-size: 16px;
+	padding: 10px 40px;
+}
+
+.btn--hero small {
+	font-size: 10px;
+	line-height: 1;
+}
+
+.hero-actions {
+	margin-top: 50px;
+}

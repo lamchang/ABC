@@ -1,5 +1,4 @@
 <header class="header">
-
 	<!-- STOCKBAR -->
 	<div class="stockbar">
 		<ul class="stockbar-list container">
@@ -74,37 +73,48 @@
 
 	<!-- MENU -->
 	<nav class="menu">
-		<div class="menu-container container">
-			<a class="btn btn-logo" href="/">
-				<img src="assets/icons/abc-leasing.svg" alt="ABC Leasing">
-			</a>
+			<div class="menu-container container">
+				<a class="btn btn-logo" href="#">
+					<img src="assets/icons/abc-leasing.svg" alt="ABC Leasing">
+				</a>
 
-			<ul class="menu-list">
-				<li class="menu-item">
-					<a class="menu-option active" href="#">Inicio</a>
-				</li>
-				<li class="menu-item dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					<a class="menu-option" href="#">¿Quiénes somos? <i class="fas fa-chevron-down"></i></a>
-					<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-						<a class="dropdown-item" href="#">Action</a>
-						<a class="dropdown-item" href="#">Another action</a>
-						<a class="dropdown-item" href="#">Something else here</a>
-					</div>
-				</li>
-				<li class="menu-item">
-					<a class="menu-option" href="#">Productos <i class="fas fa-chevron-down"></i></a>
-				</li>
-				<li class="menu-item">
-					<a class="menu-option" href="#">Noticias</a>
-				</li>
-				<li class="menu-item">
-					<a class="menu-option" href="#">Inversionistas <i class="fas fa-chevron-down"></i></a>
-				</li>
-				<li>
-					<a class="btn btn-primary" href="#">Cotizar</a>
-				</li>
-			</ul>
-		</div>
-	</nav>
-	<!-- /MENU -->
-</header>
+				<ul class="menu-list">
+					<li class="menu-item">
+						<a class="menu-option active" href="#">Inicio</a>
+					</li>
+					<li class="menu-item dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<a class="menu-option" href="#">¿Quiénes somos? <i class="fas fa-chevron-down"></i></a>
+						<div class="dropdown-menu dropdown--menu" aria-labelledby="dropdownMenuButton">
+							<a class="dropdown-item" href="#">
+								<i class="icon icon-mobility-leasing icon--medium"></i>
+								<div class="dropdown-label">
+									<h5>Arrendamiento de movilidad/transporte</h5>
+									<p>El coche de tus sueños</p>
+								</div>
+							</a>
+							<a class="dropdown-item" href="#">
+								<i class="icon icon-company-leasing icon--medium"></i>
+								<div class="dropdown-label">
+									<h5>Arrendamiento empresarial</h5>
+									<p>Soluciones de arrendamiento</p>
+								</div>
+							</a>
+						</div>
+					</li>
+					<li class="menu-item">
+						<a class="menu-option" href="#">Productos <i class="fas fa-chevron-down"></i></a>
+					</li>
+					<li class="menu-item">
+						<a class="menu-option" href="#">Noticias</a>
+					</li>
+					<li class="menu-item">
+						<a class="menu-option" href="#">Inversionistas <i class="fas fa-chevron-down"></i></a>
+					</li>
+					<li>
+						<a class="btn btn-primary" href="#">Cotizar</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<!-- /MENU -->
+	</header>

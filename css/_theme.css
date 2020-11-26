@@ -34,6 +34,7 @@
 html,
 body {
 	font-family: "Epilogue", sans-serif;
+	color: #424242;
 }
 
 body {
@@ -41,5 +42,41 @@ body {
 }
 
 /* ------------------------------------------------------------
-    MIXINS
+    BUTTONS
 ------------------------------------------------------------ */
+
+.btn-primary {
+	font-size: 14px;
+	font-weight: 500;
+	background: linear-gradient(-45deg, #4b8178, #2d6e65);
+	border: 0;
+	/* transition: all 0.35s ease-in-out; */
+}
+
+.btn-primary:hover {
+	background: linear-gradient(to bottom, #5fcca1, #519985);
+}
+
+/* ------------------------------------------------------------
+    ICONS
+------------------------------------------------------------ */
+.icon {
+	display: block;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.icon--medium {
+	width: 42px;
+	height: 42px;
+}
+
+.color--green {
+	color: #bcde8d;
+}
+
+.text-underline {
+	background-image: url("../assets/graphics/underline.svg");
+	background-repeat: repeat-x;
+	background-position: 0 100%;
+}

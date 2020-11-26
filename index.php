@@ -3,10 +3,12 @@
   <?php include "components/head.php"; ?>
 
   <body>
-    <?php include "components/header.php"; ?>
+    <main role="main">
+      <?php include "components/header.php"; ?>
+      <?php include "components/hero-image.php"; ?>
+      <?php include "components/ how-does-it-work.php"; ?>
 
-    Hola mundo
-
-    <?php include "components/footer.php"; ?>
+      <?php include "components/footer.php"; ?>
+    </main>
   </body>
 </html>
