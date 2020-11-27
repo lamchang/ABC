@@ -5,6 +5,7 @@
   <body>
     <main role="main">
       <?php include "components/header.php"; ?>
+      <?php include "components/controls.php"; ?>
       <?php include "components/hero.php"; ?>
       <?php include "components/how-does-it-work.php"; ?>
       <?php include "components/funding.php"; ?>

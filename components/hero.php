@@ -17,7 +17,18 @@
         </span>
       </h2>
       <h2 class="hide">
-        <span class="text js-anime-text"><b class="color--green">para que <span class="text-underline">lo logren</span>.</b></span>
+        <span class="text js-anime-text">
+          <b class="color--green">
+            para que 
+            <span class="text-underline-svg">
+              lo logren <svg class="path path-underline" width="243px" height="13px" viewBox="0 0 243 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <polyline stroke="#BCDE8D" stroke-width="2" points="1 2.37326002 10.375 11.37326 19.75 2.37326002 29.125 11.37326 38.5 2.37326002 47.875 11.37326 57.25 2.37326002 66.625 11.37326 76 2.37326002 85 11.37326 94.37326 2 103.74652 11.37326 112.74652 2.37326002 121.74652 11.37326 131.11978 2 140.49304 11.37326 149.8663 2 159.23956 11.37326 168.61282 2 177.98608 11.37326 186.98608 2.37326002 195.98608 11.37326 204.98608 2.37326002 213.98608 11.37326 223.35934 2 232.7326 11.37326 242.10586 2"></polyline>
+                </g>
+              </svg>
+            </span>.
+          </b>
+        </span>
       </h2>
       
       <div class="hero-actions">

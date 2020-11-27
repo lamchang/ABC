@@ -4,6 +4,7 @@
 
 @import "_theme.css";
 @import "components/_header.css";
+@import "components/_controls.css";
 @import "components/_hero.css";
 @import "components/_how-does-it-work.css";
 @import "components/_funding.css";

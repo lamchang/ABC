@@ -1,0 +1,85 @@
+.controls {
+	position: fixed;
+	top: 50%;
+	right: 0;
+	z-index: 9;
+	transform: translateY(-50%);
+}
+
+.controls:hover {
+	position: fixed;
+	top: 50%;
+	right: 0;
+	z-index: 9;
+	transform: translateY(-50%);
+	overflow: hidden;
+}
+
+.controls-list {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.controls-item {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+.btn-control {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	padding: 12px 15px;
+	margin: 0;
+	font-size: 14px;
+	color: #929bac;
+	background-color: #15171b;
+}
+
+.btn-control:hover {
+	color: white;
+	background-color: #0f1014;
+}
+
+.btn-control .icon {
+	margin-right: 0;
+	margin-left: 20px;
+}
+
+.btn-control:hover .icon {
+	filter: brightness(100);
+}
+
+.controls-list .btn-control {
+	flex: 0;
+	flex-shrink: 0;
+	width: 100%;
+	white-space: nowrap;
+	border-radius: 0;
+}
+
+.controls .btn-control {
+	flex: 0;
+	flex-shrink: 0;
+	justify-self: flex-end;
+	align-self: flex-end;
+	overflow: hidden;
+	width: 50px;
+	white-space: nowrap;
+	transition: width 0.35s ease-in-out;
+	margin-right: 0;
+}
+
+.controls-list li:first-of-type .btn-control {
+	border-radius: 6px 0 0 0;
+}
+
+.controls-list li:last-of-type .btn-control {
+	border-radius: 0 0 0 6px;
+}
+
+.controls:hover .btn-control {
+	width: 100%;
+}

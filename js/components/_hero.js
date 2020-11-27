@@ -16,6 +16,15 @@ const initHero = () => {
     stagger: 0.25
   })
 
+  // Graph uderline
+  anime({
+    targets: '.path-underline polyline',
+    strokeDashoffset: [anime.setDashoffset, 0],
+    easing: 'easeInOutSine',
+    duration: 1000,
+    delay: 1500,
+  });
+
   // Graph 1
   anime({
     targets: '#graph-group-1 path',
