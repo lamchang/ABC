@@ -7,6 +7,21 @@ const initMap = () => {
     disableDefaultUI: true,
   });
 
+  gsap.utils.toArray(".js-element-translate").forEach(card => {
+    // Card trasition
+    gsap.to(card, {
+      scrollTrigger: {
+        trigger: card,
+        start: 'top center',
+        end: 'top 30%',
+        scrub: 1,
+      },
+      y: '0',
+      duration: 1,
+      stagger: 0.25
+    })
+  })
+
   // Graph 1
   anime({
     targets: '#searcher-graph-group-1 path',

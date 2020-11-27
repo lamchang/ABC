@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="61px" viewBox="0 0 60 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Shape</title>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M53.0434783,0 L60,6.92903466 L60,60.3100599 L6.61897475,60.3100599 L0,53.0434783 L53.0434783,0 Z M51.7147826,53.0434783 L2.45913043,53.0434783 L2.40347826,53.1 L7.38695652,58.5713043 L57.0513043,58.5704348 L51.7147826,53.0434783 Z M58.2608696,7.65217391 L53.0434783,2.45826087 L53.0434783,51.9156522 L58.2608696,57.3182609 L58.2608696,7.65217391 Z" id="Shape" fill="#BCDE8D" fill-rule="nonzero" transform="translate(30.000000, 30.155030) scale(-1, 1) translate(-30.000000, -30.155030) "></path>
+    </g>
+</svg>

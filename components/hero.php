@@ -36,7 +36,7 @@
     <figure class="cover-anime">
       <img class="cover-img" src="assets/img/hero-person.png" alt="cover">
 
-      <svg class="graph-1" width="112px" height="38px" viewBox="0 0 112 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <svg class="graph-1 js-path-translate" width="112px" height="38px" viewBox="0 0 112 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <g stroke="none"  fill="none" fill-rule="evenodd">
           <g id="graph-group-1" transform="translate(0.000000, 1.000000)"  stroke="#C3FCF2" stroke-width="2">
             <path d="M0,26.37326 C4.59433505,26.37326 4.6875,35.37326 9.375,35.37326 C14.0625,35.37326 14.0625,26.37326 18.75,26.37326 C23.4375,26.37326 23.4375,35.37326 28.125,35.37326 C32.8125,35.37326 32.8125,26.37326 37.5,26.37326 C42.1875,26.37326 42.1875,35.37326 46.875,35.37326 C51.5625,35.37326 51.5625,26.37326 56.25,26.37326 C60.9375,26.37326 60.9375,35.37326 65.625,35.37326 C70.3125,35.37326 70.4069325,26.37326 75,26.37326 C79.5930675,26.37326 79.31337,35.4684708 84,35.37326 C88.68663,35.2780493 88.68663,26 93.37326,26 C98.05989,26 98.24652,35.2818407 102.74652,35.37326 C107.24652,35.4646793 107.24652,26.37326 111.74652,26.37326" id="Path-4-Copy-2"></path>
@@ -46,7 +46,7 @@
         </g>
       </svg>
 
-      <svg class="graph-2" width="34px" height="72px" viewBox="0 0 34 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <svg class="graph-2 js-path-translate" width="34px" height="72px" viewBox="0 0 34 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <g id="graph-group-2" fill="#C3FCF2">
           <circle id="Oval" style="mix-blend-mode: overlay;" transform="translate(17.000000, 3.000000) rotate(90.000000) translate(-17.000000, -3.000000) " cx="17" cy="3" r="3"></circle>
           <circle id="Oval-Copy-25" style="mix-blend-mode: overlay;" transform="translate(31.000000, 3.000000) rotate(90.000000) translate(-31.000000, -3.000000) " cx="31" cy="3" r="3"></circle>
@@ -63,7 +63,7 @@
         </g>
       </svg>
 
-      <svg class="graph-3" width="69px" height="70px" viewBox="0 0 69 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <svg class="graph-3 js-path-translate" width="69px" height="70px" viewBox="0 0 69 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <g id="graph-group-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
             <path d="M61,0 L69,7.96838986 L69,69.3565689 L7.61182097,69.3565689 L0,61 L61,0 Z M59.472,61 L2.828,61 L2.764,61.065 L8.495,67.357 L65.609,67.356 L59.472,61 Z M67,8.8 L61,2.827 L61,59.703 L67,65.916 L67,8.8 Z" id="Shape" fill="#BCDE8D" fill-rule="nonzero"></path>
         </g>

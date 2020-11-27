@@ -3,17 +3,17 @@
     <div class="section-header">
       <h3>
         <span class="hide">
-          <small class="text js-anime-title">Cómo</small>
+          <small class="text js-text-reveal">Cómo</small>
         </span>
         <span class="hide">
-          <span class="text js-anime-title">funciona</span>
+          <span class="text js-text-reveal">funciona</span>
         </span>
       </h3>
     </div>
 
     <div class="section-body">
       <div class="card-container">
-        <div class="card card--vertical card--translate js-translate">
+        <div class="card card--vertical card--translate js-card-translate">
           <div class="card-header">
             <p>1.</p>
           </div>
@@ -30,7 +30,7 @@
             <img class="img--cover" src="assets/img/card-choose.jpg" alt="Elige el tipo de crédito">
           </div>
         </div>
-        <div class="card card--vertical card--translate js-translate">
+        <div class="card card--vertical card--translate js-card-translate">
           <div class="card-header">
             <p>2.</p>
           </div>
@@ -47,7 +47,7 @@
             <img class="img--cover" src="assets/img/card-quote.jpg" alt="Elige el tipo de crédito">
           </div>
         </div>
-        <div class="card card--vertical card--translate js-translate">
+        <div class="card card--vertical card--translate js-card-translate">
           <div class="card-header">
             <p>3.</p>
           </div>
@@ -64,7 +64,7 @@
             <img class="img--cover" src="assets/img/card-send.jpg" alt="Elige el tipo de crédito">
           </div>
         </div>
-        <div class="card card--vertical card--translate js-translate">
+        <div class="card card--vertical card--translate js-card-translate">
           <div class="card-header">
             <p>4.</p>
           </div>

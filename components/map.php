@@ -1,15 +1,15 @@
 <section class="section map">
   <div class="container">
     <div class="section-header">
-      <h3>
-        <span>¿Necesitas ayuda?</span>
+      <h3 class="hide">
+        <span class="text js-text-reveal">¿Necesitas ayuda?</span>
       </h3>
     </div>
     
     <div class="section-body">
       <div class="row">
         <div class="col-4">
-          <div class="map-searcher">
+          <div class="map-searcher js-element-translate">
             <div class="map-searcher-header">
               <img class="icon" src="assets/img/icons/icon-company.svg" alt="Company">
               <h3>Buscar sucursal</h3>
@@ -72,7 +72,7 @@
           </div>
         </div>
         <div class="col-8">
-          <div class="gmap js-map"><div>
+          <div class="gmap js-map js-element-translate"><div>
         </div>
       </div>
     </div>

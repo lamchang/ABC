@@ -22,8 +22,9 @@
     <!-- SCRIPTS -->
     <script src="js/components/_header.js"></script>
     <script src="js/components/_hero.js"></script>
-    <script src="js/components/_funding.js"></script>
     <script src="js/components/_how-does-it-work.js"></script>
+    <script src="js/components/_funding.js"></script>
+    <script src="js/components/_benefits.js"></script>
     <script src="js/components/_map.js"></script>
     <script src="js/pages/_home.js"></script>
   </body>
