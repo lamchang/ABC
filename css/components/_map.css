@@ -76,6 +76,13 @@
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03), 0 1px 0 rgba(0, 0, 0, 0.02);
 }
 
+.form-group--simple select.form-control {
+	appearance: none;
+	background-image: url("../../assets/img/icons/icon-select.svg");
+	background-repeat: no-repeat;
+	background-position: calc(100% - 15px) center;
+}
+
 .map-searcher-footer {
 	display: flex;
 	flex-direction: column;
@@ -103,7 +110,20 @@
 	z-index: -2;
 }
 
+.map-container {
+	position: relative;
+}
+
+.map-container .graph-map-1 {
+	position: absolute;
+	right: -30px;
+	bottom: 30px;
+	z-index: 1;
+}
+
 .gmap {
+	position: relative;
+	z-index: 0;
 	transform: translateY(5%);
 	width: 100%;
 	height: 470px;

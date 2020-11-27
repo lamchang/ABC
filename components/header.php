@@ -40,19 +40,19 @@
 			<ul class="topmenu-list">
 					<li class="topmenu-item">
 						<a class="item-btn" href="tel:800 263 1414">
-							<img class="icon" src="assets/img/icons/telephone.svg" alt="Teléfono">
+							<i class="icon fas fa-phone-alt"></i>
 							<span>800 263 1414<span>
 						</a>
 					</li>
 					<li class="topmenu-item">
 						<a class="item-btn" href="tel:555 1 34623 1">
-							<img class="icon" src="assets/img/icons/whatsapp.svg" alt="WhatsApp">
+							<i class="icon fab fa-whatsapp"></i>
 							<span>555 1 34623 1<span>
 						</a>
 					</li>
 					<li class="topmenu-item">
 						<a class="item-btn" href="mailto:contacto@abcleasing.com.mx">
-							<img class="icon" src="assets/img/icons/email.svg" alt="E-mail">
+							<i class="icon far fa-envelope"></i>
 							<span>contacto@abcleasing.com.mx<span>
 						</a>
 					</li>
@@ -86,17 +86,27 @@
 						<a class="menu-option" href="#">¿Quiénes somos? <i class="fas fa-chevron-down"></i></a>
 						<div class="dropdown-menu dropdown--menu" aria-labelledby="dropdownMenuButton">
 							<a class="dropdown-item" href="#">
-								<i class="icon icon-mobility-leasing icon--medium"></i>
 								<div class="dropdown-label">
-									<h5>Arrendamiento de movilidad/transporte</h5>
-									<p>El coche de tus sueños</p>
+									<h5>Nosotros</h5>
+									<p>Ut enim ad minim veniam</p>
 								</div>
 							</a>
 							<a class="dropdown-item" href="#">
-								<i class="icon icon-company-leasing icon--medium"></i>
 								<div class="dropdown-label">
-									<h5>Arrendamiento empresarial</h5>
-									<p>Soluciones de arrendamiento</p>
+									<h5>ABC Leasing</h5>
+									<p>Ut enim ad minim veniam</p>
+								</div>
+							</a>
+							<a class="dropdown-item" href="#">
+								<div class="dropdown-label">
+									<h5>Entidad financiera</h5>
+									<p>Ut enim ad minim veniam</p>
+								</div>
+							</a>
+							<a class="dropdown-item" href="#">
+								<div class="dropdown-label">
+									<h5>Directorio de sucursales</h5>
+									<p>Ut enim ad minim veniam</p>
 								</div>
 							</a>
 						</div>
@@ -127,17 +137,33 @@
 						<a class="menu-option" href="#">Inversionistas <i class="fas fa-chevron-down"></i></a>
 						<div class="dropdown-menu dropdown--menu" aria-labelledby="dropdownMenuButton">
 							<a class="dropdown-item" href="#">
-								<i class="icon icon-mobility-leasing icon--medium"></i>
 								<div class="dropdown-label">
-									<h5>Arrendamiento de movilidad/transporte</h5>
-									<p>El coche de tus sueños</p>
+									<h5>Calificadoras</h5>
+									<p>Ut enim ad minim veniam</p>
 								</div>
 							</a>
 							<a class="dropdown-item" href="#">
-								<i class="icon icon-company-leasing icon--medium"></i>
 								<div class="dropdown-label">
-									<h5>Arrendamiento empresarial</h5>
-									<p>Soluciones de arrendamiento</p>
+									<h5>Emisiones</h5>
+									<p>Ut enim ad minim veniam</p>
+								</div>
+							</a>
+							<a class="dropdown-item" href="#">
+								<div class="dropdown-label">
+									<h5>Eventos</h5>
+									<p>Ut enim ad minim veniam</p>
+								</div>
+							</a>
+							<a class="dropdown-item" href="#">
+								<div class="dropdown-label">
+									<h5>Estados Financieros</h5>
+									<p>Ut enim ad minim veniam</p>
+								</div>
+							</a>
+							<a class="dropdown-item" href="#">
+								<div class="dropdown-label">
+									<h5>Gobierno corporativo</h5>
+									<p>Ut enim ad minim veniam</p>
 								</div>
 							</a>
 						</div>

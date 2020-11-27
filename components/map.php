@@ -72,7 +72,14 @@
           </div>
         </div>
         <div class="col-8">
-          <div class="gmap js-map js-element-translate"><div>
+          <div class="map-container">
+            <div class="gmap js-map js-element-translate"></div>
+            <svg class="graph graph-map-1 js-path-translate" width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <path d="M49,1 L31,1 L31,31 L1,31 L1,49 L49,49 L49,1 Z" id="Path" stroke="#C3FCF2" stroke-width="2"></path>
+              </g>
+            </svg>
+          </div>
         </div>
       </div>
     </div>

@@ -9,7 +9,8 @@ const initHero = () => {
       trigger: '.js-translate',
       scrub: true,
     },
-    y: '15%',
+    y: '20%',
+    scale: 1.15,
     duration: 1,
     ease: 'ease',
     stagger: 0.25
