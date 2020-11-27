@@ -37,24 +37,39 @@ body {
 	color: #424242;
 }
 
-body {
-	background-color: gray;
-}
-
 /* ------------------------------------------------------------
     BUTTONS
 ------------------------------------------------------------ */
 
+.btn:focus,
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle,
+.btn-primary:not(:disabled):not(.disabled).focus,
+.btn-primary:not(:disabled):not(.disabled):focus {
+	box-shadow: 0 0 0 0.2rem rgba(188, 222, 141, 0.5);
+}
+
 .btn-primary {
 	font-size: 14px;
 	font-weight: 500;
-	background: linear-gradient(-45deg, #4b8178, #2d6e65);
 	border: 0;
-	/* transition: all 0.35s ease-in-out; */
+	background: linear-gradient(-45deg, #4b8178, #2d6e65);
+	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
 }
 
 .btn-primary:hover {
 	background: linear-gradient(to bottom, #5fcca1, #519985);
+	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15), 0 10px 10px rgba(0, 0, 0, 0.15);
+}
+
+.btn-link {
+	text-decoration: underline;
+	color: #4b8178;
+}
+
+.btn-link:hover {
+	color: #43b588;
 }
 
 /* ------------------------------------------------------------

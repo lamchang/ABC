@@ -15,18 +15,35 @@
       </g>
     </svg>
 
-    <img class="graph-2" src="assets/img/graphs/dots.svg" alt="">
-    <img class="graph-3" src="assets/img/graphs/triangle.svg" alt="">
+    <svg class="graph-2" width="34px" height="72px" viewBox="0 0 34 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <g id="graph-group-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+          <path d="M-16,47 C-14.3431458,47 -13,48.3431458 -13,50 C-13,51.6568542 -14.3431458,53 -16,53 C-17.6568542,53 -19,51.6568542 -19,50 C-19,48.3431458 -17.6568542,47 -16,47 Z M6,47 C7.65685425,47 9,48.3431458 9,50 C9,51.6568542 7.65685425,53 6,53 C4.34314575,53 3,51.6568542 3,50 C3,48.3431458 4.34314575,47 6,47 Z M28,47 C29.6568542,47 31,48.3431458 31,50 C31,51.6568542 29.6568542,53 28,53 C26.3431458,53 25,51.6568542 25,50 C25,48.3431458 26.3431458,47 28,47 Z M50,47 C51.6568542,47 53,48.3431458 53,50 C53,51.6568542 51.6568542,53 50,53 C48.3431458,53 47,51.6568542 47,50 C47,48.3431458 48.3431458,47 50,47 Z M-16,33 C-14.3431458,33 -13,34.3431458 -13,36 C-13,37.6568542 -14.3431458,39 -16,39 C-17.6568542,39 -19,37.6568542 -19,36 C-19,34.3431458 -17.6568542,33 -16,33 Z M6,33 C7.65685425,33 9,34.3431458 9,36 C9,37.6568542 7.65685425,39 6,39 C4.34314575,39 3,37.6568542 3,36 C3,34.3431458 4.34314575,33 6,33 Z M28,33 C29.6568542,33 31,34.3431458 31,36 C31,37.6568542 29.6568542,39 28,39 C26.3431458,39 25,37.6568542 25,36 C25,34.3431458 26.3431458,33 28,33 Z M50,33 C51.6568542,33 53,34.3431458 53,36 C53,37.6568542 51.6568542,39 50,39 C48.3431458,39 47,37.6568542 47,36 C47,34.3431458 48.3431458,33 50,33 Z M-16,19 C-14.3431458,19 -13,20.3431458 -13,22 C-13,23.6568542 -14.3431458,25 -16,25 C-17.6568542,25 -19,23.6568542 -19,22 C-19,20.3431458 -17.6568542,19 -16,19 Z M6,19 C7.65685425,19 9,20.3431458 9,22 C9,23.6568542 7.65685425,25 6,25 C4.34314575,25 3,23.6568542 3,22 C3,20.3431458 4.34314575,19 6,19 Z M28,19 C29.6568542,19 31,20.3431458 31,22 C31,23.6568542 29.6568542,25 28,25 C26.3431458,25 25,23.6568542 25,22 C25,20.3431458 26.3431458,19 28,19 Z M50,19 C51.6568542,19 53,20.3431458 53,22 C53,23.6568542 51.6568542,25 50,25 C48.3431458,25 47,23.6568542 47,22 C47,20.3431458 48.3431458,19 50,19 Z" id="Combined-Shape" fill="#C3FCF2" style="mix-blend-mode: overlay;" transform="translate(17.000000, 36.000000) rotate(90.000000) translate(-17.000000, -36.000000) "></path>
+      </g>
+    </svg>
+
+    <svg class="graph-3" width="69px" height="70px" viewBox="0 0 69 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <g id="graph-group-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+          <path d="M61,0 L69,7.96838986 L69,69.3565689 L7.61182097,69.3565689 L0,61 L61,0 Z M59.472,61 L2.828,61 L2.764,61.065 L8.495,67.357 L65.609,67.356 L59.472,61 Z M67,8.8 L61,2.827 L61,59.703 L67,65.916 L67,8.8 Z" id="Shape" fill="#BCDE8D" fill-rule="nonzero"></path>
+      </g>
+    </svg>
     
   </figure>
   
   <div class="hero-container container">
     <div class="hero-content">
-      <h2>
-        Las empresas <br> tienen el talento, <br>
-        <b class="color--green">
-          nosotros los recursos para que <span class="text-underline">lo logren</span>.
-        <b>
+      <h2 class="hide">
+        <span class="text js-anime-text">Las empresas</span>
+      </h2>
+      <h2 class="hide">
+        <span class="text js-anime-text">tienen el talento,</span>
+      </h2>
+      <h2 class="hide">
+        <span class="text js-anime-text">
+          <b class="color--green">nosotros los recursos</b>
+        </span>
+      </h2>
+      <h2 class="hide">
+        <span class="text js-anime-text"><b class="color--green">para que <span class="text-underline">lo logren</span>.</b></span>
       </h2>
       
       <div class="hero-actions">

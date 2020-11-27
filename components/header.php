@@ -75,7 +75,7 @@
 	<nav class="menu">
 			<div class="menu-container container">
 				<a class="btn btn-logo" href="#">
-					<img src="assets/img/icons/abc-leasing.svg" alt="ABC Leasing">
+					<img src="assets/img/icons/abc-leasing-white.svg" alt="ABC Leasing">
 				</a>
 
 				<ul class="menu-list">

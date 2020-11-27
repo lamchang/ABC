@@ -5,4 +5,9 @@
 @import "_theme.css";
 @import "components/_header.css";
 @import "components/_hero.css";
+@import "components/_how-does-it-work.css";
+@import "components/_funding.css";
+@import "components/_benefits.css";
+@import "components/_map.css";
+@import "components/_footer.css";
 @import "pages/_home.css";

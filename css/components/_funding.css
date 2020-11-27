@@ -1,0 +1,48 @@
+.funding .card--horizontal {
+	margin-bottom: 80px;
+}
+
+.card--horizontal {
+	display: flex;
+	flex-direction: row;
+	border: 0;
+}
+
+.card--horizontal .card-cover,
+.card--horizontal .card-body {
+	width: 50%;
+}
+
+.card--horizontal .card-cover img {
+	width: 100%;
+	height: auto;
+	box-shadow: -10px 10px 0 #bcde8d;
+}
+
+.card--horizontal .card-body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	padding: 0 60px;
+}
+
+.card--horizontal .card-body h3 {
+	font-size: 43px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+.card--horizontal .card-body p {
+	font-size: 18px;
+	font-weight: 400;
+	margin-bottom: 16px;
+}
+
+.card--horizontal .card-body a {
+	padding: 0;
+}
+
+.card--horizontal .card-body + .card-cover img {
+	box-shadow: 10px 10px 0 #88c0b6;
+}
