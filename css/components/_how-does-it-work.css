@@ -45,6 +45,14 @@
 	box-shadow: 5px 10px 16px rgba(0, 0, 0, 0.1);
 }
 
+.card--translate:nth-of-type(1n) {
+	transform: translate3d(0px, -10%, 0px);
+}
+
+.card--translate:nth-of-type(2n) {
+	transform: translate3d(0px, 10%, 0px);
+}
+
 .card--vertical .card-header {
 	position: relative;
 	z-index: 1;

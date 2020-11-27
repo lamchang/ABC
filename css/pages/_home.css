@@ -1,0 +1,8 @@
+.hide {
+	overflow: hidden;
+}
+
+.hide .text {
+	transform: translateY(100%);
+	display: inline-block;
+}

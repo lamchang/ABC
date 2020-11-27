@@ -1,16 +1,24 @@
 const initHowDoesItWork = () => {
-  // Icon choose
-  anime({
-    targets: '.icon-choose polygon',
-    points: [
-      {value: '0'},
-      {value: '126 263,281 317,475 132,405 417,530 535,29 490,202 365'}
-    ],
-    easing: 'easeOutQuad',
-    duration: 2500,
-    loop: true,
-    direction: 'alternate'
-  });
+  // Title trasition
+  gsap.to('.js-anime-title', {
+    scrollTrigger: '.js-anime-title',
+    y: '0%',
+    duration: 1,
+    stagger: 0.25
+  })
+
+  // Card trasition
+  gsap.to('.js-translate', {
+    scrollTrigger: {
+      trigger: '.js-translate',
+      start: 'top 60%',
+      end: 'top center',
+      scrub: 1,
+    },
+    y: '0',
+    duration: 1,
+    stagger: 0.25
+  })
 }
 
 window.addEventListener('load', initHowDoesItWork)

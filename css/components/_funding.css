@@ -10,6 +10,7 @@
 
 .card--horizontal .card-cover,
 .card--horizontal .card-body {
+	position: relative;
 	width: 50%;
 }
 
@@ -17,6 +18,42 @@
 	width: 100%;
 	height: auto;
 	box-shadow: -10px 10px 0 #bcde8d;
+}
+
+.card--horizontal .graph {
+	position: absolute;
+}
+
+.card--horizontal:nth-of-type(0n + 1) .graph-card-1 {
+	top: -20px;
+	left: 20px;
+}
+
+.card--horizontal:nth-of-type(0n + 1) .graph-card-2 {
+	top: 50%;
+	right: -35px;
+	transform: translateY(-50%);
+}
+
+.card--horizontal:nth-of-type(0n + 1) .graph-card-3 {
+	bottom: 20px;
+	right: -30px;
+}
+
+.card--horizontal:nth-of-type(2n) .graph-card-1 {
+	top: 50%;
+	left: -35px;
+}
+
+.card--horizontal:nth-of-type(2n) .graph-card-2 {
+	top: 50%;
+	left: -25px;
+	transform: translateY(-50%);
+}
+
+.card--horizontal:nth-of-type(2n) .graph-card-3 {
+	bottom: 20px;
+	right: -30px;
 }
 
 .card--horizontal .card-body {

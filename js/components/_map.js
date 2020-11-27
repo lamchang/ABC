@@ -6,6 +6,17 @@ const initMap = () => {
     zoom: 5,
     disableDefaultUI: true,
   });
+
+  // Graph 1
+  anime({
+    targets: '#searcher-graph-group-1 path',
+    strokeDashoffset: [anime.setDashoffset, 0],
+    easing: 'easeInOutSine',
+    duration: 1500,
+    delay: function(el, i) { return i * 250 },
+    direction: 'alternate',
+    loop: true
+  });
 }
 
 window.addEventListener('load', initMap)
